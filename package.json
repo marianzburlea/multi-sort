@@ -1,0 +1,33 @@
+{
+  "name": "multi-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "multi-sort.js",
+  "dependencies": {
+    "babel-jest": "^21.0.2",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch --no-cache"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 50,
+        "branches": 50,
+        "functions": 50,
+        "lines": 100
+      }
+    },
+    "testEnvironment": "jest-environment-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
