@@ -39,9 +39,6 @@ const multiSort = ({data, sortList}) => {
     } else {
       s = s.thenBy(sort.property, {direction, ignoreCase});
     }
-
-    console.log(sort.property)
-    console.log(direction)
   });
   return data.sort(s);
 }
