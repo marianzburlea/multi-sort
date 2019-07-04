@@ -4,9 +4,9 @@
   "description": "",
   "main": "multi-sort.js",
   "dependencies": {
-    "babel-jest": "^21.0.2",
+    "babel-jest": "^24.8.0",
     "babel-preset-env": "^1.6.0",
-    "jest": "^21.1.0"
+    "jest": "^24.8.0"
   },
   "devDependencies": {},
   "scripts": {
